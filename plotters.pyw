@@ -530,7 +530,7 @@ def plot_climo(climo_file,wrf_output,domain,epoch,month_name,variable):
 
     # Change to output directory; save figure
 
-    out_dir = ('/pscratch/sd/n/nee2000/WRF-Prod/images_revisions/climatologies/')
+    out_dir = ('')
     print(os.getcwd())
     if os.path.exists(out_dir):
         os.chdir(out_dir)
@@ -1097,7 +1097,7 @@ def plot_kde(hist_4,fut_4,hist_27,fut_27,variable,region):
     plt.legend(fontsize='x-small')
 
     #plt.show()
-    out_dir = ('/pscratch/sd/n/nee2000/WRF-Prod/images_final/')
+    out_dir = ('')
     if os.path.exists(out_dir):
         os.chdir(out_dir)
     else:

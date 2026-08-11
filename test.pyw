@@ -20,7 +20,7 @@ def ml_inputs(epoch,resolution,year,option):
     resolution = int(resolution)
     
     # Set directory structure
-    base_dir = '/pscratch/sd/n/nee2000/WRF-Prod'
+    base_dir = ''
     if resolution == 4:
         input_dir = os.path.join(base_dir + '/' + f'{epoch}/WRF-Monthly')
     elif resolution == 27:

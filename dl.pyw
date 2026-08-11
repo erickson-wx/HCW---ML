@@ -296,7 +296,7 @@ def model_run():
     #print('Number of workers/worker id:', num_workers, worker_id)
 
     # Set directory structure
-    base_dir = '/pscratch/sd/n/nee2000/WRF-Prod'
+    base_dir = ''
     hist_dir = os.path.join(base_dir,'hist/WRF-Monthly') 
     fut_dir = os.path.join(base_dir,'fut/WRF-Monthly') 
     
@@ -504,7 +504,7 @@ def unet_test():
     # Do the damn thing
 
     # Set directory structure
-    base_dir = '/pscratch/sd/n/nee2000/WRF-Prod'
+    base_dir = ''
     hist_dir = os.path.join(base_dir,'hist/WRF-Monthly') 
     fut_dir = os.path.join(base_dir,'fut/WRF-Monthly') 
     hist_tfrecord_dir = os.path.join(hist_dir,'tfrecords')
